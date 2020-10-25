@@ -1,0 +1,46 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'Credit/css/client_main.css' %}" />
+    </head>
+    <header>
+        <h1 contenteditable>Client</h1>
+    </header>
+
+    <div class="left-sidebar" contenteditable>
+        <div class="button-bar-container">
+            <div class="button-bar" id="submit-credit"></div>
+            <div class="button-bar" id="bill-list"></div>
+        </div>
+    </div>
+
+    <main contenteditable>
+        <div class="credit">
+            <div class="item" id="bank">
+                <div class="label">银行</div>
+                <div class="input"></div>
+            </div>
+
+            <div class="item" id="amount">
+                <div class="label">金额</div>
+                <div class="input"></div>
+            </div>
+
+            <div class="item" id="limit-date">
+                <div class="label">期限</div>
+                <div class="input"></div>
+            </div>
+            
+            <div class="item" id="submit">
+                
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </main>
+
+    <div class="right-sidebar" contenteditable></div>
+
+    <footer contenteditable></footer>
+</html>
